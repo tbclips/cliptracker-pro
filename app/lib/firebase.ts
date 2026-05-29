@@ -3,7 +3,7 @@ import { getAuth } from "firebase/auth"
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA1tuyXSUfEeBvOftmDhULUv7w4luLRMyk",
+  apiKey: "AIzaSyDlbfjbhw_b0HqT_7TtYmIEEVuDe1gS4zU",
   authDomain: "cliptracker-pro.firebaseapp.com",
   projectId: "cliptracker-pro",
   storageBucket: "cliptracker-pro.firebasestorage.app",
