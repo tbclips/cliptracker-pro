@@ -1,9 +1,9 @@
-import { initializeApp } from 'firebase/app'
-import { getAuth } from 'firebase/auth'
-import { getFirestore } from 'firebase/firestore'
+import { initializeApp } from "firebase/app"
+import { getAuth } from "firebase/auth"
+import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA1tuyXSUfEeBvOfmDhULUv7w4luLRMyk",
+  apiKey: "AIzaSyA1tuyXSUfEeBvOftmDhULUv7w4luLRMyk",
   authDomain: "cliptracker-pro.firebaseapp.com",
   projectId: "cliptracker-pro",
   storageBucket: "cliptracker-pro.firebasestorage.app",
@@ -15,3 +15,4 @@ const app = initializeApp(firebaseConfig)
 
 export const auth = getAuth(app)
 export const db = getFirestore(app)
+export default app
